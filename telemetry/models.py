@@ -10,3 +10,15 @@ class TelemetrySample:
     lat: float              # GPS latitude
     lon: float              # GPS longitude
     state: str              # "idle", "riding", or "charging"
+
+@dataclass
+class Session:
+    vehicle_id: str         # which scooter
+    session_type: str       # "riding" or "charging" or "idle"
+    start_time: str         # when the session started
+    end_time: str           # when the session ended
+    sample_count: int       # how many samples in this session
+    start_soc: float        # battery percentage at start
+    end_soc: float          # battery percentage at end
+    max_speed: float        # max speed during session
+    max_temp: float         # max motor temp during session

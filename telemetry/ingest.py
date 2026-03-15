@@ -1,5 +1,6 @@
 import csv
-from .models import TelemetrySample
+from models import TelemetrySample
+from datetime import datetime
 
 def load_csv(filepath):
 
@@ -51,6 +52,12 @@ def validate_row(row):
     for field in reqfields:
         if field not in row or row[field] == "":
             return False, "Missing field: " + field
+        
+    try:
+        datetime.fromisoformat(row["timestamp"])
+    except ValueError:
+        return False, "Invalid timestamp format"
+    
     try:
         speed = float(row["speed_kmph"])
         soc = float(row["soc"])
