@@ -22,3 +22,23 @@ class Session:
     end_soc: float          # battery percentage at end
     max_speed: float        # max speed during session
     max_temp: float         # max motor temp during session
+
+@dataclass
+class DailyMetrics:
+    vehicle_id: str
+    date: str
+    total_ride_time_min: float
+    distance_estimate_km: float
+    avg_speed_kmph: float
+    soc_drop_pct: float
+    max_temp_c: float
+    num_rides: int
+    num_charges: int
+
+@dataclass
+class Anomaly:
+    vehicle_id: str
+    timestamp: str
+    rule: str
+    severity: str            # "low", "medium", or "high"
+    explanation: str
