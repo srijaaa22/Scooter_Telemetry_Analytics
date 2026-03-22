@@ -285,12 +285,6 @@ Ingestion, sessionization, and anomaly detection tests covering validation, grou
 
 ---
 
-## Future Enhancements
-
-Real-time processing (Kafka), ML for predictive maintenance, database integration, web dashboard, advanced anomaly detection, multi-day analysis, RESTful API, geospatial analysis.
-
----
-
 ## Contributing
 
 Fork the repository, create a feature branch, write tests, ensure tests pass, and submit a pull request.
