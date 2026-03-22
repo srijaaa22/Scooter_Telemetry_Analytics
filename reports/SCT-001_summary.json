@@ -2,383 +2,467 @@
   "metrics": {
     "vehicle_id": "SCT-001",
     "date": "2026-08-29",
-    "total_ride_time_min": 891.0,
-    "distance_estimate_km": 482.59,
-    "avg_speed_kmph": 32.87,
+    "total_ride_time_min": 974.0,
+    "distance_estimate_km": 530.86,
+    "avg_speed_kmph": 32.71,
     "soc_drop_pct": 41.7,
     "max_temp_c": 95.0,
-    "num_rides": 15,
+    "num_rides": 9,
     "num_charges": 0
   },
-  "anomaly_count": 187,
+  "anomaly_count": 208,
   "anomalies": [
     {
       "vehicle_id": "SCT-001",
-      "timestamp": "2026-08-29T14:31:00-05:00",
-      "rule": "gps_jump",
-      "severity": "Medium",
-      "explanation": "Sudden GPS jump detected between 2026-08-29T14:27:00-05:00 and 2026-08-29T14:31:00-05:00"
-    },
-    {
-      "vehicle_id": "SCT-001",
-      "timestamp": "2026-08-29T14:32:00-05:00",
-      "rule": "gps_jump",
-      "severity": "Medium",
-      "explanation": "Sudden GPS jump detected between 2026-08-29T14:31:00-05:00 and 2026-08-29T14:32:00-05:00"
-    },
-    {
-      "vehicle_id": "SCT-001",
-      "timestamp": "2026-08-29T21:27:00-05:00",
+      "timestamp": "2026-08-29T20:51:00-05:00",
       "rule": "temperature spike",
       "severity": "High",
       "explanation": "Motor temp 80.1\u00b0C exceeds 80\u00b0C threshold"
     },
     {
       "vehicle_id": "SCT-001",
-      "timestamp": "2026-08-29T21:32:00-05:00",
+      "timestamp": "2026-08-29T20:53:00-05:00",
       "rule": "temperature spike",
       "severity": "High",
-      "explanation": "Motor temp 80.7\u00b0C exceeds 80\u00b0C threshold"
+      "explanation": "Motor temp 80.5\u00b0C exceeds 80\u00b0C threshold"
     },
     {
       "vehicle_id": "SCT-001",
-      "timestamp": "2026-08-29T21:36:00-05:00",
+      "timestamp": "2026-08-29T20:58:00-05:00",
+      "rule": "temperature spike",
+      "severity": "High",
+      "explanation": "Motor temp 80.6\u00b0C exceeds 80\u00b0C threshold"
+    },
+    {
+      "vehicle_id": "SCT-001",
+      "timestamp": "2026-08-29T21:03:00-05:00",
+      "rule": "temperature spike",
+      "severity": "High",
+      "explanation": "Motor temp 81.0\u00b0C exceeds 80\u00b0C threshold"
+    },
+    {
+      "vehicle_id": "SCT-001",
+      "timestamp": "2026-08-29T21:04:00-05:00",
       "rule": "temperature spike",
       "severity": "High",
       "explanation": "Motor temp 81.3\u00b0C exceeds 80\u00b0C threshold"
     },
     {
       "vehicle_id": "SCT-001",
-      "timestamp": "2026-08-29T21:41:00-05:00",
+      "timestamp": "2026-08-29T21:05:00-05:00",
       "rule": "temperature spike",
       "severity": "High",
-      "explanation": "Motor temp 81.5\u00b0C exceeds 80\u00b0C threshold"
+      "explanation": "Motor temp 81.8\u00b0C exceeds 80\u00b0C threshold"
     },
     {
       "vehicle_id": "SCT-001",
-      "timestamp": "2026-08-29T21:44:00-05:00",
+      "timestamp": "2026-08-29T21:09:00-05:00",
       "rule": "temperature spike",
       "severity": "High",
-      "explanation": "Motor temp 81.5\u00b0C exceeds 80\u00b0C threshold"
+      "explanation": "Motor temp 82.2\u00b0C exceeds 80\u00b0C threshold"
     },
     {
       "vehicle_id": "SCT-001",
-      "timestamp": "2026-08-29T21:47:00-05:00",
+      "timestamp": "2026-08-29T21:12:00-05:00",
       "rule": "temperature spike",
       "severity": "High",
-      "explanation": "Motor temp 82.1\u00b0C exceeds 80\u00b0C threshold"
+      "explanation": "Motor temp 82.5\u00b0C exceeds 80\u00b0C threshold"
     },
     {
       "vehicle_id": "SCT-001",
-      "timestamp": "2026-08-29T21:52:00-05:00",
+      "timestamp": "2026-08-29T21:14:00-05:00",
       "rule": "temperature spike",
       "severity": "High",
-      "explanation": "Motor temp 82.8\u00b0C exceeds 80\u00b0C threshold"
+      "explanation": "Motor temp 83.2\u00b0C exceeds 80\u00b0C threshold"
     },
     {
       "vehicle_id": "SCT-001",
-      "timestamp": "2026-08-29T21:55:00-05:00",
+      "timestamp": "2026-08-29T21:17:00-05:00",
       "rule": "temperature spike",
       "severity": "High",
-      "explanation": "Motor temp 82.9\u00b0C exceeds 80\u00b0C threshold"
+      "explanation": "Motor temp 83.2\u00b0C exceeds 80\u00b0C threshold"
     },
     {
       "vehicle_id": "SCT-001",
-      "timestamp": "2026-08-29T21:58:00-05:00",
+      "timestamp": "2026-08-29T21:22:00-05:00",
       "rule": "temperature spike",
       "severity": "High",
-      "explanation": "Motor temp 83.4\u00b0C exceeds 80\u00b0C threshold"
+      "explanation": "Motor temp 83.9\u00b0C exceeds 80\u00b0C threshold"
     },
     {
       "vehicle_id": "SCT-001",
-      "timestamp": "2026-08-29T22:01:00-05:00",
+      "timestamp": "2026-08-29T21:24:00-05:00",
       "rule": "temperature spike",
       "severity": "High",
-      "explanation": "Motor temp 83.5\u00b0C exceeds 80\u00b0C threshold"
+      "explanation": "Motor temp 84.2\u00b0C exceeds 80\u00b0C threshold"
     },
     {
       "vehicle_id": "SCT-001",
-      "timestamp": "2026-08-29T22:05:00-05:00",
+      "timestamp": "2026-08-29T21:26:00-05:00",
       "rule": "temperature spike",
       "severity": "High",
-      "explanation": "Motor temp 84.0\u00b0C exceeds 80\u00b0C threshold"
+      "explanation": "Motor temp 84.4\u00b0C exceeds 80\u00b0C threshold"
     },
     {
       "vehicle_id": "SCT-001",
-      "timestamp": "2026-08-29T22:06:00-05:00",
+      "timestamp": "2026-08-29T21:28:00-05:00",
+      "rule": "temperature spike",
+      "severity": "High",
+      "explanation": "Motor temp 84.3\u00b0C exceeds 80\u00b0C threshold"
+    },
+    {
+      "vehicle_id": "SCT-001",
+      "timestamp": "2026-08-29T21:30:00-05:00",
+      "rule": "temperature spike",
+      "severity": "High",
+      "explanation": "Motor temp 84.3\u00b0C exceeds 80\u00b0C threshold"
+    },
+    {
+      "vehicle_id": "SCT-001",
+      "timestamp": "2026-08-29T21:35:00-05:00",
+      "rule": "temperature spike",
+      "severity": "High",
+      "explanation": "Motor temp 84.2\u00b0C exceeds 80\u00b0C threshold"
+    },
+    {
+      "vehicle_id": "SCT-001",
+      "timestamp": "2026-08-29T21:36:00-05:00",
       "rule": "temperature spike",
       "severity": "High",
       "explanation": "Motor temp 84.1\u00b0C exceeds 80\u00b0C threshold"
     },
     {
       "vehicle_id": "SCT-001",
-      "timestamp": "2026-08-29T22:07:00-05:00",
+      "timestamp": "2026-08-29T21:37:00-05:00",
       "rule": "temperature spike",
       "severity": "High",
-      "explanation": "Motor temp 84.6\u00b0C exceeds 80\u00b0C threshold"
+      "explanation": "Motor temp 84.1\u00b0C exceeds 80\u00b0C threshold"
     },
     {
       "vehicle_id": "SCT-001",
-      "timestamp": "2026-08-29T22:10:00-05:00",
+      "timestamp": "2026-08-29T21:41:00-05:00",
       "rule": "temperature spike",
       "severity": "High",
-      "explanation": "Motor temp 84.6\u00b0C exceeds 80\u00b0C threshold"
+      "explanation": "Motor temp 84.0\u00b0C exceeds 80\u00b0C threshold"
+    },
+    {
+      "vehicle_id": "SCT-001",
+      "timestamp": "2026-08-29T21:46:00-05:00",
+      "rule": "temperature spike",
+      "severity": "High",
+      "explanation": "Motor temp 84.0\u00b0C exceeds 80\u00b0C threshold"
+    },
+    {
+      "vehicle_id": "SCT-001",
+      "timestamp": "2026-08-29T21:48:00-05:00",
+      "rule": "temperature spike",
+      "severity": "High",
+      "explanation": "Motor temp 83.8\u00b0C exceeds 80\u00b0C threshold"
+    },
+    {
+      "vehicle_id": "SCT-001",
+      "timestamp": "2026-08-29T21:49:00-05:00",
+      "rule": "temperature spike",
+      "severity": "High",
+      "explanation": "Motor temp 83.8\u00b0C exceeds 80\u00b0C threshold"
+    },
+    {
+      "vehicle_id": "SCT-001",
+      "timestamp": "2026-08-29T21:51:00-05:00",
+      "rule": "temperature spike",
+      "severity": "High",
+      "explanation": "Motor temp 83.7\u00b0C exceeds 80\u00b0C threshold"
+    },
+    {
+      "vehicle_id": "SCT-001",
+      "timestamp": "2026-08-29T21:52:00-05:00",
+      "rule": "temperature spike",
+      "severity": "High",
+      "explanation": "Motor temp 83.6\u00b0C exceeds 80\u00b0C threshold"
+    },
+    {
+      "vehicle_id": "SCT-001",
+      "timestamp": "2026-08-29T21:57:00-05:00",
+      "rule": "temperature spike",
+      "severity": "High",
+      "explanation": "Motor temp 83.5\u00b0C exceeds 80\u00b0C threshold"
+    },
+    {
+      "vehicle_id": "SCT-001",
+      "timestamp": "2026-08-29T22:01:00-05:00",
+      "rule": "temperature spike",
+      "severity": "High",
+      "explanation": "Motor temp 83.4\u00b0C exceeds 80\u00b0C threshold"
+    },
+    {
+      "vehicle_id": "SCT-001",
+      "timestamp": "2026-08-29T22:03:00-05:00",
+      "rule": "temperature spike",
+      "severity": "High",
+      "explanation": "Motor temp 83.4\u00b0C exceeds 80\u00b0C threshold"
+    },
+    {
+      "vehicle_id": "SCT-001",
+      "timestamp": "2026-08-29T22:07:00-05:00",
+      "rule": "temperature spike",
+      "severity": "High",
+      "explanation": "Motor temp 83.3\u00b0C exceeds 80\u00b0C threshold"
+    },
+    {
+      "vehicle_id": "SCT-001",
+      "timestamp": "2026-08-29T22:11:00-05:00",
+      "rule": "temperature spike",
+      "severity": "High",
+      "explanation": "Motor temp 83.3\u00b0C exceeds 80\u00b0C threshold"
+    },
+    {
+      "vehicle_id": "SCT-001",
+      "timestamp": "2026-08-29T22:12:00-05:00",
+      "rule": "temperature spike",
+      "severity": "High",
+      "explanation": "Motor temp 83.3\u00b0C exceeds 80\u00b0C threshold"
     },
     {
       "vehicle_id": "SCT-001",
       "timestamp": "2026-08-29T22:14:00-05:00",
       "rule": "temperature spike",
       "severity": "High",
-      "explanation": "Motor temp 84.8\u00b0C exceeds 80\u00b0C threshold"
+      "explanation": "Motor temp 83.5\u00b0C exceeds 80\u00b0C threshold"
     },
     {
       "vehicle_id": "SCT-001",
       "timestamp": "2026-08-29T22:17:00-05:00",
       "rule": "temperature spike",
       "severity": "High",
-      "explanation": "Motor temp 84.9\u00b0C exceeds 80\u00b0C threshold"
+      "explanation": "Motor temp 83.9\u00b0C exceeds 80\u00b0C threshold"
     },
     {
       "vehicle_id": "SCT-001",
-      "timestamp": "2026-08-29T22:22:00-05:00",
+      "timestamp": "2026-08-29T22:18:00-05:00",
+      "rule": "temperature spike",
+      "severity": "High",
+      "explanation": "Motor temp 84.4\u00b0C exceeds 80\u00b0C threshold"
+    },
+    {
+      "vehicle_id": "SCT-001",
+      "timestamp": "2026-08-29T22:20:00-05:00",
+      "rule": "temperature spike",
+      "severity": "High",
+      "explanation": "Motor temp 84.7\u00b0C exceeds 80\u00b0C threshold"
+    },
+    {
+      "vehicle_id": "SCT-001",
+      "timestamp": "2026-08-29T22:25:00-05:00",
+      "rule": "temperature spike",
+      "severity": "High",
+      "explanation": "Motor temp 84.7\u00b0C exceeds 80\u00b0C threshold"
+    },
+    {
+      "vehicle_id": "SCT-001",
+      "timestamp": "2026-08-29T22:30:00-05:00",
+      "rule": "temperature spike",
+      "severity": "High",
+      "explanation": "Motor temp 84.7\u00b0C exceeds 80\u00b0C threshold"
+    },
+    {
+      "vehicle_id": "SCT-001",
+      "timestamp": "2026-08-29T22:35:00-05:00",
       "rule": "temperature spike",
       "severity": "High",
       "explanation": "Motor temp 85.1\u00b0C exceeds 80\u00b0C threshold"
     },
     {
       "vehicle_id": "SCT-001",
-      "timestamp": "2026-08-29T22:27:00-05:00",
-      "rule": "temperature spike",
-      "severity": "High",
-      "explanation": "Motor temp 85.4\u00b0C exceeds 80\u00b0C threshold"
-    },
-    {
-      "vehicle_id": "SCT-001",
-      "timestamp": "2026-08-29T22:32:00-05:00",
+      "timestamp": "2026-08-29T22:36:00-05:00",
       "rule": "temperature spike",
       "severity": "High",
       "explanation": "Motor temp 85.6\u00b0C exceeds 80\u00b0C threshold"
     },
     {
       "vehicle_id": "SCT-001",
-      "timestamp": "2026-08-29T22:33:00-05:00",
+      "timestamp": "2026-08-29T22:39:00-05:00",
       "rule": "temperature spike",
       "severity": "High",
-      "explanation": "Motor temp 86.2\u00b0C exceeds 80\u00b0C threshold"
-    },
-    {
-      "vehicle_id": "SCT-001",
-      "timestamp": "2026-08-29T22:34:00-05:00",
-      "rule": "temperature spike",
-      "severity": "High",
-      "explanation": "Motor temp 86.4\u00b0C exceeds 80\u00b0C threshold"
-    },
-    {
-      "vehicle_id": "SCT-001",
-      "timestamp": "2026-08-29T22:38:00-05:00",
-      "rule": "temperature spike",
-      "severity": "High",
-      "explanation": "Motor temp 86.9\u00b0C exceeds 80\u00b0C threshold"
-    },
-    {
-      "vehicle_id": "SCT-001",
-      "timestamp": "2026-08-29T22:40:00-05:00",
-      "rule": "temperature spike",
-      "severity": "High",
-      "explanation": "Motor temp 87.4\u00b0C exceeds 80\u00b0C threshold"
+      "explanation": "Motor temp 85.6\u00b0C exceeds 80\u00b0C threshold"
     },
     {
       "vehicle_id": "SCT-001",
       "timestamp": "2026-08-29T22:41:00-05:00",
       "rule": "temperature spike",
       "severity": "High",
-      "explanation": "Motor temp 88.1\u00b0C exceeds 80\u00b0C threshold"
+      "explanation": "Motor temp 86.6\u00b0C exceeds 80\u00b0C threshold"
     },
     {
       "vehicle_id": "SCT-001",
-      "timestamp": "2026-08-29T22:45:00-05:00",
+      "timestamp": "2026-08-29T22:46:00-05:00",
       "rule": "temperature spike",
       "severity": "High",
-      "explanation": "Motor temp 88.7\u00b0C exceeds 80\u00b0C threshold"
+      "explanation": "Motor temp 86.8\u00b0C exceeds 80\u00b0C threshold"
     },
     {
       "vehicle_id": "SCT-001",
-      "timestamp": "2026-08-29T22:50:00-05:00",
+      "timestamp": "2026-08-29T22:49:00-05:00",
       "rule": "temperature spike",
       "severity": "High",
-      "explanation": "Motor temp 89.1\u00b0C exceeds 80\u00b0C threshold"
+      "explanation": "Motor temp 86.9\u00b0C exceeds 80\u00b0C threshold"
     },
     {
       "vehicle_id": "SCT-001",
-      "timestamp": "2026-08-29T22:53:00-05:00",
+      "timestamp": "2026-08-29T22:54:00-05:00",
       "rule": "temperature spike",
       "severity": "High",
-      "explanation": "Motor temp 89.5\u00b0C exceeds 80\u00b0C threshold"
+      "explanation": "Motor temp 87.5\u00b0C exceeds 80\u00b0C threshold"
     },
     {
       "vehicle_id": "SCT-001",
       "timestamp": "2026-08-29T22:58:00-05:00",
       "rule": "temperature spike",
       "severity": "High",
-      "explanation": "Motor temp 90.0\u00b0C exceeds 80\u00b0C threshold"
+      "explanation": "Motor temp 87.9\u00b0C exceeds 80\u00b0C threshold"
     },
     {
       "vehicle_id": "SCT-001",
-      "timestamp": "2026-08-29T23:00:00-05:00",
+      "timestamp": "2026-08-29T23:01:00-05:00",
       "rule": "temperature spike",
       "severity": "High",
-      "explanation": "Motor temp 90.4\u00b0C exceeds 80\u00b0C threshold"
+      "explanation": "Motor temp 88.1\u00b0C exceeds 80\u00b0C threshold"
     },
     {
       "vehicle_id": "SCT-001",
-      "timestamp": "2026-08-29T23:03:00-05:00",
+      "timestamp": "2026-08-29T23:02:00-05:00",
       "rule": "temperature spike",
       "severity": "High",
-      "explanation": "Motor temp 90.8\u00b0C exceeds 80\u00b0C threshold"
+      "explanation": "Motor temp 88.3\u00b0C exceeds 80\u00b0C threshold"
     },
     {
       "vehicle_id": "SCT-001",
-      "timestamp": "2026-08-29T23:07:00-05:00",
+      "timestamp": "2026-08-29T23:05:00-05:00",
       "rule": "temperature spike",
       "severity": "High",
-      "explanation": "Motor temp 91.4\u00b0C exceeds 80\u00b0C threshold"
+      "explanation": "Motor temp 88.8\u00b0C exceeds 80\u00b0C threshold"
+    },
+    {
+      "vehicle_id": "SCT-001",
+      "timestamp": "2026-08-29T23:06:00-05:00",
+      "rule": "temperature spike",
+      "severity": "High",
+      "explanation": "Motor temp 89.0\u00b0C exceeds 80\u00b0C threshold"
     },
     {
       "vehicle_id": "SCT-001",
       "timestamp": "2026-08-29T23:09:00-05:00",
       "rule": "temperature spike",
       "severity": "High",
-      "explanation": "Motor temp 91.3\u00b0C exceeds 80\u00b0C threshold"
+      "explanation": "Motor temp 89.1\u00b0C exceeds 80\u00b0C threshold"
     },
     {
       "vehicle_id": "SCT-001",
-      "timestamp": "2026-08-29T23:10:00-05:00",
+      "timestamp": "2026-08-29T23:14:00-05:00",
       "rule": "temperature spike",
       "severity": "High",
-      "explanation": "Motor temp 91.1\u00b0C exceeds 80\u00b0C threshold"
+      "explanation": "Motor temp 89.5\u00b0C exceeds 80\u00b0C threshold"
     },
     {
       "vehicle_id": "SCT-001",
-      "timestamp": "2026-08-29T23:18:00-05:00",
+      "timestamp": "2026-08-29T23:19:00-05:00",
+      "rule": "temperature spike",
+      "severity": "High",
+      "explanation": "Motor temp 89.8\u00b0C exceeds 80\u00b0C threshold"
+    },
+    {
+      "vehicle_id": "SCT-001",
+      "timestamp": "2026-08-29T23:20:00-05:00",
+      "rule": "temperature spike",
+      "severity": "High",
+      "explanation": "Motor temp 90.1\u00b0C exceeds 80\u00b0C threshold"
+    },
+    {
+      "vehicle_id": "SCT-001",
+      "timestamp": "2026-08-29T23:23:00-05:00",
+      "rule": "temperature spike",
+      "severity": "High",
+      "explanation": "Motor temp 90.8\u00b0C exceeds 80\u00b0C threshold"
+    },
+    {
+      "vehicle_id": "SCT-001",
+      "timestamp": "2026-08-29T23:28:00-05:00",
+      "rule": "temperature spike",
+      "severity": "High",
+      "explanation": "Motor temp 91.0\u00b0C exceeds 80\u00b0C threshold"
+    },
+    {
+      "vehicle_id": "SCT-001",
+      "timestamp": "2026-08-29T23:30:00-05:00",
       "rule": "temperature spike",
       "severity": "High",
       "explanation": "Motor temp 91.7\u00b0C exceeds 80\u00b0C threshold"
     },
     {
       "vehicle_id": "SCT-001",
-      "timestamp": "2026-08-29T23:22:00-05:00",
+      "timestamp": "2026-08-29T23:35:00-05:00",
       "rule": "temperature spike",
       "severity": "High",
-      "explanation": "Motor temp 92.3\u00b0C exceeds 80\u00b0C threshold"
-    },
-    {
-      "vehicle_id": "SCT-001",
-      "timestamp": "2026-08-29T23:27:00-05:00",
-      "rule": "temperature spike",
-      "severity": "High",
-      "explanation": "Motor temp 92.8\u00b0C exceeds 80\u00b0C threshold"
-    },
-    {
-      "vehicle_id": "SCT-001",
-      "timestamp": "2026-08-29T23:29:00-05:00",
-      "rule": "temperature spike",
-      "severity": "High",
-      "explanation": "Motor temp 93.3\u00b0C exceeds 80\u00b0C threshold"
-    },
-    {
-      "vehicle_id": "SCT-001",
-      "timestamp": "2026-08-29T23:33:00-05:00",
-      "rule": "temperature spike",
-      "severity": "High",
-      "explanation": "Motor temp 93.9\u00b0C exceeds 80\u00b0C threshold"
-    },
-    {
-      "vehicle_id": "SCT-001",
-      "timestamp": "2026-08-29T23:38:00-05:00",
-      "rule": "temperature spike",
-      "severity": "High",
-      "explanation": "Motor temp 93.9\u00b0C exceeds 80\u00b0C threshold"
+      "explanation": "Motor temp 92.2\u00b0C exceeds 80\u00b0C threshold"
     },
     {
       "vehicle_id": "SCT-001",
       "timestamp": "2026-08-29T23:39:00-05:00",
       "rule": "temperature spike",
       "severity": "High",
-      "explanation": "Motor temp 94.5\u00b0C exceeds 80\u00b0C threshold"
+      "explanation": "Motor temp 92.6\u00b0C exceeds 80\u00b0C threshold"
     },
     {
       "vehicle_id": "SCT-001",
-      "timestamp": "2026-08-29T23:42:00-05:00",
+      "timestamp": "2026-08-29T23:41:00-05:00",
       "rule": "temperature spike",
       "severity": "High",
-      "explanation": "Motor temp 95.0\u00b0C exceeds 80\u00b0C threshold"
+      "explanation": "Motor temp 92.7\u00b0C exceeds 80\u00b0C threshold"
     },
     {
       "vehicle_id": "SCT-001",
-      "timestamp": "2026-08-29T23:47:00-05:00",
+      "timestamp": "2026-08-29T23:45:00-05:00",
       "rule": "temperature spike",
       "severity": "High",
-      "explanation": "Motor temp 95.0\u00b0C exceeds 80\u00b0C threshold"
-    },
-    {
-      "vehicle_id": "SCT-001",
-      "timestamp": "2026-08-29T23:48:00-05:00",
-      "rule": "temperature spike",
-      "severity": "High",
-      "explanation": "Motor temp 95.0\u00b0C exceeds 80\u00b0C threshold"
+      "explanation": "Motor temp 92.8\u00b0C exceeds 80\u00b0C threshold"
     },
     {
       "vehicle_id": "SCT-001",
       "timestamp": "2026-08-29T23:50:00-05:00",
       "rule": "temperature spike",
       "severity": "High",
-      "explanation": "Motor temp 95.0\u00b0C exceeds 80\u00b0C threshold"
+      "explanation": "Motor temp 93.5\u00b0C exceeds 80\u00b0C threshold"
     },
     {
       "vehicle_id": "SCT-001",
-      "timestamp": "2026-08-29T23:55:00-05:00",
+      "timestamp": "2026-08-29T23:54:00-05:00",
       "rule": "temperature spike",
       "severity": "High",
-      "explanation": "Motor temp 95.0\u00b0C exceeds 80\u00b0C threshold"
+      "explanation": "Motor temp 93.8\u00b0C exceeds 80\u00b0C threshold"
     },
     {
       "vehicle_id": "SCT-001",
       "timestamp": "2026-08-29T23:56:00-05:00",
       "rule": "temperature spike",
       "severity": "High",
-      "explanation": "Motor temp 95.0\u00b0C exceeds 80\u00b0C threshold"
-    },
-    {
-      "vehicle_id": "SCT-001",
-      "timestamp": "2026-08-29T23:58:00-05:00",
-      "rule": "temperature spike",
-      "severity": "High",
-      "explanation": "Motor temp 95.0\u00b0C exceeds 80\u00b0C threshold"
+      "explanation": "Motor temp 94.2\u00b0C exceeds 80\u00b0C threshold"
     },
     {
       "vehicle_id": "SCT-001",
       "timestamp": "2026-08-30T00:00:00-05:00",
       "rule": "temperature spike",
       "severity": "High",
-      "explanation": "Motor temp 95.0\u00b0C exceeds 80\u00b0C threshold"
+      "explanation": "Motor temp 94.3\u00b0C exceeds 80\u00b0C threshold"
     },
     {
       "vehicle_id": "SCT-001",
-      "timestamp": "2026-08-30T00:03:00-05:00",
+      "timestamp": "2026-08-30T00:02:00-05:00",
       "rule": "temperature spike",
       "severity": "High",
       "explanation": "Motor temp 95.0\u00b0C exceeds 80\u00b0C threshold"
     },
     {
       "vehicle_id": "SCT-001",
-      "timestamp": "2026-08-30T00:06:00-05:00",
-      "rule": "temperature spike",
-      "severity": "High",
-      "explanation": "Motor temp 95.0\u00b0C exceeds 80\u00b0C threshold"
-    },
-    {
-      "vehicle_id": "SCT-001",
-      "timestamp": "2026-08-30T00:08:00-05:00",
+      "timestamp": "2026-08-30T00:07:00-05:00",
       "rule": "temperature spike",
       "severity": "High",
       "explanation": "Motor temp 95.0\u00b0C exceeds 80\u00b0C threshold"
@@ -392,7 +476,7 @@
     },
     {
       "vehicle_id": "SCT-001",
-      "timestamp": "2026-08-30T00:14:00-05:00",
+      "timestamp": "2026-08-30T00:15:00-05:00",
       "rule": "temperature spike",
       "severity": "High",
       "explanation": "Motor temp 95.0\u00b0C exceeds 80\u00b0C threshold"
@@ -406,7 +490,7 @@
     },
     {
       "vehicle_id": "SCT-001",
-      "timestamp": "2026-08-30T00:20:00-05:00",
+      "timestamp": "2026-08-30T00:19:00-05:00",
       "rule": "temperature spike",
       "severity": "High",
       "explanation": "Motor temp 95.0\u00b0C exceeds 80\u00b0C threshold"
@@ -420,13 +504,6 @@
     },
     {
       "vehicle_id": "SCT-001",
-      "timestamp": "2026-08-30T00:24:00-05:00",
-      "rule": "temperature spike",
-      "severity": "High",
-      "explanation": "Motor temp 95.0\u00b0C exceeds 80\u00b0C threshold"
-    },
-    {
-      "vehicle_id": "SCT-001",
       "timestamp": "2026-08-30T00:26:00-05:00",
       "rule": "temperature spike",
       "severity": "High",
@@ -434,21 +511,21 @@
     },
     {
       "vehicle_id": "SCT-001",
-      "timestamp": "2026-08-30T00:29:00-05:00",
+      "timestamp": "2026-08-30T00:28:00-05:00",
       "rule": "temperature spike",
       "severity": "High",
       "explanation": "Motor temp 95.0\u00b0C exceeds 80\u00b0C threshold"
     },
     {
       "vehicle_id": "SCT-001",
-      "timestamp": "2026-08-30T00:31:00-05:00",
+      "timestamp": "2026-08-30T00:33:00-05:00",
       "rule": "temperature spike",
       "severity": "High",
       "explanation": "Motor temp 95.0\u00b0C exceeds 80\u00b0C threshold"
     },
     {
       "vehicle_id": "SCT-001",
-      "timestamp": "2026-08-30T00:35:00-05:00",
+      "timestamp": "2026-08-30T00:36:00-05:00",
       "rule": "temperature spike",
       "severity": "High",
       "explanation": "Motor temp 95.0\u00b0C exceeds 80\u00b0C threshold"
@@ -462,13 +539,6 @@
     },
     {
       "vehicle_id": "SCT-001",
-      "timestamp": "2026-08-30T00:39:00-05:00",
-      "rule": "temperature spike",
-      "severity": "High",
-      "explanation": "Motor temp 95.0\u00b0C exceeds 80\u00b0C threshold"
-    },
-    {
-      "vehicle_id": "SCT-001",
       "timestamp": "2026-08-30T00:40:00-05:00",
       "rule": "temperature spike",
       "severity": "High",
@@ -476,7 +546,7 @@
     },
     {
       "vehicle_id": "SCT-001",
-      "timestamp": "2026-08-30T00:44:00-05:00",
+      "timestamp": "2026-08-30T00:43:00-05:00",
       "rule": "temperature spike",
       "severity": "High",
       "explanation": "Motor temp 95.0\u00b0C exceeds 80\u00b0C threshold"
@@ -490,14 +560,7 @@
     },
     {
       "vehicle_id": "SCT-001",
-      "timestamp": "2026-08-30T00:51:00-05:00",
-      "rule": "temperature spike",
-      "severity": "High",
-      "explanation": "Motor temp 95.0\u00b0C exceeds 80\u00b0C threshold"
-    },
-    {
-      "vehicle_id": "SCT-001",
-      "timestamp": "2026-08-30T00:54:00-05:00",
+      "timestamp": "2026-08-30T00:53:00-05:00",
       "rule": "temperature spike",
       "severity": "High",
       "explanation": "Motor temp 95.0\u00b0C exceeds 80\u00b0C threshold"
@@ -518,14 +581,28 @@
     },
     {
       "vehicle_id": "SCT-001",
-      "timestamp": "2026-08-30T01:01:00-05:00",
+      "timestamp": "2026-08-30T00:58:00-05:00",
       "rule": "temperature spike",
       "severity": "High",
       "explanation": "Motor temp 95.0\u00b0C exceeds 80\u00b0C threshold"
     },
     {
       "vehicle_id": "SCT-001",
-      "timestamp": "2026-08-30T01:05:00-05:00",
+      "timestamp": "2026-08-30T00:59:00-05:00",
+      "rule": "temperature spike",
+      "severity": "High",
+      "explanation": "Motor temp 95.0\u00b0C exceeds 80\u00b0C threshold"
+    },
+    {
+      "vehicle_id": "SCT-001",
+      "timestamp": "2026-08-30T01:03:00-05:00",
+      "rule": "temperature spike",
+      "severity": "High",
+      "explanation": "Motor temp 95.0\u00b0C exceeds 80\u00b0C threshold"
+    },
+    {
+      "vehicle_id": "SCT-001",
+      "timestamp": "2026-08-30T01:08:00-05:00",
       "rule": "temperature spike",
       "severity": "High",
       "explanation": "Motor temp 95.0\u00b0C exceeds 80\u00b0C threshold"
@@ -539,13 +616,6 @@
     },
     {
       "vehicle_id": "SCT-001",
-      "timestamp": "2026-08-30T01:12:00-05:00",
-      "rule": "temperature spike",
-      "severity": "High",
-      "explanation": "Motor temp 95.0\u00b0C exceeds 80\u00b0C threshold"
-    },
-    {
-      "vehicle_id": "SCT-001",
       "timestamp": "2026-08-30T01:15:00-05:00",
       "rule": "temperature spike",
       "severity": "High",
@@ -553,56 +623,42 @@
     },
     {
       "vehicle_id": "SCT-001",
-      "timestamp": "2026-08-30T01:16:00-05:00",
+      "timestamp": "2026-08-30T01:18:00-05:00",
       "rule": "temperature spike",
       "severity": "High",
       "explanation": "Motor temp 95.0\u00b0C exceeds 80\u00b0C threshold"
     },
     {
       "vehicle_id": "SCT-001",
-      "timestamp": "2026-08-30T01:17:00-05:00",
+      "timestamp": "2026-08-30T01:23:00-05:00",
       "rule": "temperature spike",
       "severity": "High",
       "explanation": "Motor temp 95.0\u00b0C exceeds 80\u00b0C threshold"
     },
     {
       "vehicle_id": "SCT-001",
-      "timestamp": "2026-08-30T01:22:00-05:00",
+      "timestamp": "2026-08-30T01:25:00-05:00",
       "rule": "temperature spike",
       "severity": "High",
       "explanation": "Motor temp 95.0\u00b0C exceeds 80\u00b0C threshold"
     },
     {
       "vehicle_id": "SCT-001",
-      "timestamp": "2026-08-30T01:27:00-05:00",
+      "timestamp": "2026-08-30T01:30:00-05:00",
       "rule": "temperature spike",
       "severity": "High",
       "explanation": "Motor temp 95.0\u00b0C exceeds 80\u00b0C threshold"
     },
     {
       "vehicle_id": "SCT-001",
-      "timestamp": "2026-08-30T01:31:00-05:00",
+      "timestamp": "2026-08-30T01:32:00-05:00",
       "rule": "temperature spike",
       "severity": "High",
       "explanation": "Motor temp 95.0\u00b0C exceeds 80\u00b0C threshold"
-    },
-    {
-      "vehicle_id": "SCT-001",
-      "timestamp": "2026-08-30T01:33:00-05:00",
-      "rule": "temperature spike",
-      "severity": "High",
-      "explanation": "Motor temp 94.9\u00b0C exceeds 80\u00b0C threshold"
     },
     {
       "vehicle_id": "SCT-001",
       "timestamp": "2026-08-30T01:37:00-05:00",
-      "rule": "temperature spike",
-      "severity": "High",
-      "explanation": "Motor temp 95.0\u00b0C exceeds 80\u00b0C threshold"
-    },
-    {
-      "vehicle_id": "SCT-001",
-      "timestamp": "2026-08-30T01:39:00-05:00",
       "rule": "temperature spike",
       "severity": "High",
       "explanation": "Motor temp 95.0\u00b0C exceeds 80\u00b0C threshold"
@@ -616,21 +672,28 @@
     },
     {
       "vehicle_id": "SCT-001",
-      "timestamp": "2026-08-30T01:46:00-05:00",
+      "timestamp": "2026-08-30T01:44:00-05:00",
       "rule": "temperature spike",
       "severity": "High",
       "explanation": "Motor temp 95.0\u00b0C exceeds 80\u00b0C threshold"
     },
     {
       "vehicle_id": "SCT-001",
-      "timestamp": "2026-08-30T01:51:00-05:00",
+      "timestamp": "2026-08-30T01:48:00-05:00",
       "rule": "temperature spike",
       "severity": "High",
       "explanation": "Motor temp 95.0\u00b0C exceeds 80\u00b0C threshold"
     },
     {
       "vehicle_id": "SCT-001",
-      "timestamp": "2026-08-30T01:52:00-05:00",
+      "timestamp": "2026-08-30T01:50:00-05:00",
+      "rule": "temperature spike",
+      "severity": "High",
+      "explanation": "Motor temp 95.0\u00b0C exceeds 80\u00b0C threshold"
+    },
+    {
+      "vehicle_id": "SCT-001",
+      "timestamp": "2026-08-30T01:53:00-05:00",
       "rule": "temperature spike",
       "severity": "High",
       "explanation": "Motor temp 95.0\u00b0C exceeds 80\u00b0C threshold"
@@ -638,13 +701,6 @@
     {
       "vehicle_id": "SCT-001",
       "timestamp": "2026-08-30T01:56:00-05:00",
-      "rule": "temperature spike",
-      "severity": "High",
-      "explanation": "Motor temp 95.0\u00b0C exceeds 80\u00b0C threshold"
-    },
-    {
-      "vehicle_id": "SCT-001",
-      "timestamp": "2026-08-30T01:59:00-05:00",
       "rule": "temperature spike",
       "severity": "High",
       "explanation": "Motor temp 95.0\u00b0C exceeds 80\u00b0C threshold"
@@ -665,7 +721,7 @@
     },
     {
       "vehicle_id": "SCT-001",
-      "timestamp": "2026-08-30T02:08:00-05:00",
+      "timestamp": "2026-08-30T02:06:00-05:00",
       "rule": "temperature spike",
       "severity": "High",
       "explanation": "Motor temp 95.0\u00b0C exceeds 80\u00b0C threshold"
@@ -679,245 +735,287 @@
     },
     {
       "vehicle_id": "SCT-001",
-      "timestamp": "2026-08-30T02:12:00-05:00",
-      "rule": "temperature spike",
-      "severity": "High",
-      "explanation": "Motor temp 95.0\u00b0C exceeds 80\u00b0C threshold"
-    },
-    {
-      "vehicle_id": "SCT-001",
       "timestamp": "2026-08-30T02:13:00-05:00",
       "rule": "temperature spike",
       "severity": "High",
-      "explanation": "Motor temp 94.9\u00b0C exceeds 80\u00b0C threshold"
+      "explanation": "Motor temp 95.0\u00b0C exceeds 80\u00b0C threshold"
     },
     {
       "vehicle_id": "SCT-001",
-      "timestamp": "2026-08-30T02:16:00-05:00",
+      "timestamp": "2026-08-30T02:17:00-05:00",
+      "rule": "temperature spike",
+      "severity": "High",
+      "explanation": "Motor temp 95.0\u00b0C exceeds 80\u00b0C threshold"
+    },
+    {
+      "vehicle_id": "SCT-001",
+      "timestamp": "2026-08-30T02:21:00-05:00",
+      "rule": "temperature spike",
+      "severity": "High",
+      "explanation": "Motor temp 95.0\u00b0C exceeds 80\u00b0C threshold"
+    },
+    {
+      "vehicle_id": "SCT-001",
+      "timestamp": "2026-08-30T02:26:00-05:00",
+      "rule": "temperature spike",
+      "severity": "High",
+      "explanation": "Motor temp 95.0\u00b0C exceeds 80\u00b0C threshold"
+    },
+    {
+      "vehicle_id": "SCT-001",
+      "timestamp": "2026-08-30T02:27:00-05:00",
+      "rule": "temperature spike",
+      "severity": "High",
+      "explanation": "Motor temp 95.0\u00b0C exceeds 80\u00b0C threshold"
+    },
+    {
+      "vehicle_id": "SCT-001",
+      "timestamp": "2026-08-30T02:37:00-05:00",
+      "rule": "temperature spike",
+      "severity": "High",
+      "explanation": "Motor temp 95.0\u00b0C exceeds 80\u00b0C threshold"
+    },
+    {
+      "vehicle_id": "SCT-001",
+      "timestamp": "2026-08-30T02:40:00-05:00",
+      "rule": "temperature spike",
+      "severity": "High",
+      "explanation": "Motor temp 95.0\u00b0C exceeds 80\u00b0C threshold"
+    },
+    {
+      "vehicle_id": "SCT-001",
+      "timestamp": "2026-08-30T02:44:00-05:00",
       "rule": "temperature spike",
       "severity": "High",
       "explanation": "Motor temp 94.9\u00b0C exceeds 80\u00b0C threshold"
     },
     {
       "vehicle_id": "SCT-001",
-      "timestamp": "2026-08-30T02:19:00-05:00",
+      "timestamp": "2026-08-30T02:49:00-05:00",
+      "rule": "temperature spike",
+      "severity": "High",
+      "explanation": "Motor temp 94.9\u00b0C exceeds 80\u00b0C threshold"
+    },
+    {
+      "vehicle_id": "SCT-001",
+      "timestamp": "2026-08-30T02:51:00-05:00",
       "rule": "temperature spike",
       "severity": "High",
       "explanation": "Motor temp 94.8\u00b0C exceeds 80\u00b0C threshold"
-    },
-    {
-      "vehicle_id": "SCT-001",
-      "timestamp": "2026-08-30T02:24:00-05:00",
-      "rule": "temperature spike",
-      "severity": "High",
-      "explanation": "Motor temp 94.7\u00b0C exceeds 80\u00b0C threshold"
-    },
-    {
-      "vehicle_id": "SCT-001",
-      "timestamp": "2026-08-30T02:25:00-05:00",
-      "rule": "temperature spike",
-      "severity": "High",
-      "explanation": "Motor temp 94.7\u00b0C exceeds 80\u00b0C threshold"
-    },
-    {
-      "vehicle_id": "SCT-001",
-      "timestamp": "2026-08-30T02:30:00-05:00",
-      "rule": "temperature spike",
-      "severity": "High",
-      "explanation": "Motor temp 94.6\u00b0C exceeds 80\u00b0C threshold"
-    },
-    {
-      "vehicle_id": "SCT-001",
-      "timestamp": "2026-08-30T02:34:00-05:00",
-      "rule": "temperature spike",
-      "severity": "High",
-      "explanation": "Motor temp 95.0\u00b0C exceeds 80\u00b0C threshold"
-    },
-    {
-      "vehicle_id": "SCT-001",
-      "timestamp": "2026-08-30T02:38:00-05:00",
-      "rule": "temperature spike",
-      "severity": "High",
-      "explanation": "Motor temp 95.0\u00b0C exceeds 80\u00b0C threshold"
-    },
-    {
-      "vehicle_id": "SCT-001",
-      "timestamp": "2026-08-30T02:43:00-05:00",
-      "rule": "temperature spike",
-      "severity": "High",
-      "explanation": "Motor temp 95.0\u00b0C exceeds 80\u00b0C threshold"
-    },
-    {
-      "vehicle_id": "SCT-001",
-      "timestamp": "2026-08-30T02:46:00-05:00",
-      "rule": "temperature spike",
-      "severity": "High",
-      "explanation": "Motor temp 95.0\u00b0C exceeds 80\u00b0C threshold"
-    },
-    {
-      "vehicle_id": "SCT-001",
-      "timestamp": "2026-08-30T02:47:00-05:00",
-      "rule": "temperature spike",
-      "severity": "High",
-      "explanation": "Motor temp 95.0\u00b0C exceeds 80\u00b0C threshold"
     },
     {
       "vehicle_id": "SCT-001",
       "timestamp": "2026-08-30T02:52:00-05:00",
       "rule": "temperature spike",
       "severity": "High",
-      "explanation": "Motor temp 95.0\u00b0C exceeds 80\u00b0C threshold"
+      "explanation": "Motor temp 94.8\u00b0C exceeds 80\u00b0C threshold"
     },
     {
       "vehicle_id": "SCT-001",
-      "timestamp": "2026-08-30T03:00:00-05:00",
+      "timestamp": "2026-08-30T02:56:00-05:00",
       "rule": "temperature spike",
       "severity": "High",
-      "explanation": "Motor temp 95.0\u00b0C exceeds 80\u00b0C threshold"
+      "explanation": "Motor temp 94.7\u00b0C exceeds 80\u00b0C threshold"
     },
     {
       "vehicle_id": "SCT-001",
-      "timestamp": "2026-08-30T03:05:00-05:00",
+      "timestamp": "2026-08-30T02:59:00-05:00",
       "rule": "temperature spike",
       "severity": "High",
-      "explanation": "Motor temp 95.0\u00b0C exceeds 80\u00b0C threshold"
+      "explanation": "Motor temp 94.6\u00b0C exceeds 80\u00b0C threshold"
     },
     {
       "vehicle_id": "SCT-001",
-      "timestamp": "2026-08-30T03:08:00-05:00",
+      "timestamp": "2026-08-30T03:01:00-05:00",
       "rule": "temperature spike",
       "severity": "High",
-      "explanation": "Motor temp 95.0\u00b0C exceeds 80\u00b0C threshold"
+      "explanation": "Motor temp 94.5\u00b0C exceeds 80\u00b0C threshold"
+    },
+    {
+      "vehicle_id": "SCT-001",
+      "timestamp": "2026-08-30T03:02:00-05:00",
+      "rule": "temperature spike",
+      "severity": "High",
+      "explanation": "Motor temp 94.3\u00b0C exceeds 80\u00b0C threshold"
+    },
+    {
+      "vehicle_id": "SCT-001",
+      "timestamp": "2026-08-30T03:06:00-05:00",
+      "rule": "temperature spike",
+      "severity": "High",
+      "explanation": "Motor temp 94.2\u00b0C exceeds 80\u00b0C threshold"
     },
     {
       "vehicle_id": "SCT-001",
       "timestamp": "2026-08-30T03:11:00-05:00",
       "rule": "temperature spike",
       "severity": "High",
-      "explanation": "Motor temp 95.0\u00b0C exceeds 80\u00b0C threshold"
+      "explanation": "Motor temp 94.4\u00b0C exceeds 80\u00b0C threshold"
     },
     {
       "vehicle_id": "SCT-001",
       "timestamp": "2026-08-30T03:13:00-05:00",
       "rule": "temperature spike",
       "severity": "High",
-      "explanation": "Motor temp 95.0\u00b0C exceeds 80\u00b0C threshold"
+      "explanation": "Motor temp 94.4\u00b0C exceeds 80\u00b0C threshold"
     },
     {
       "vehicle_id": "SCT-001",
-      "timestamp": "2026-08-30T03:14:00-05:00",
+      "timestamp": "2026-08-30T03:15:00-05:00",
       "rule": "temperature spike",
       "severity": "High",
-      "explanation": "Motor temp 95.0\u00b0C exceeds 80\u00b0C threshold"
+      "explanation": "Motor temp 94.3\u00b0C exceeds 80\u00b0C threshold"
+    },
+    {
+      "vehicle_id": "SCT-001",
+      "timestamp": "2026-08-30T03:18:00-05:00",
+      "rule": "temperature spike",
+      "severity": "High",
+      "explanation": "Motor temp 94.3\u00b0C exceeds 80\u00b0C threshold"
     },
     {
       "vehicle_id": "SCT-001",
       "timestamp": "2026-08-30T03:19:00-05:00",
       "rule": "temperature spike",
       "severity": "High",
-      "explanation": "Motor temp 95.0\u00b0C exceeds 80\u00b0C threshold"
+      "explanation": "Motor temp 94.2\u00b0C exceeds 80\u00b0C threshold"
     },
     {
       "vehicle_id": "SCT-001",
-      "timestamp": "2026-08-30T03:21:00-05:00",
+      "timestamp": "2026-08-30T03:20:00-05:00",
       "rule": "temperature spike",
       "severity": "High",
-      "explanation": "Motor temp 95.0\u00b0C exceeds 80\u00b0C threshold"
+      "explanation": "Motor temp 94.1\u00b0C exceeds 80\u00b0C threshold"
     },
     {
       "vehicle_id": "SCT-001",
-      "timestamp": "2026-08-30T03:22:00-05:00",
+      "timestamp": "2026-08-30T03:25:00-05:00",
       "rule": "temperature spike",
       "severity": "High",
-      "explanation": "Motor temp 95.0\u00b0C exceeds 80\u00b0C threshold"
+      "explanation": "Motor temp 94.1\u00b0C exceeds 80\u00b0C threshold"
     },
     {
       "vehicle_id": "SCT-001",
-      "timestamp": "2026-08-30T03:23:00-05:00",
+      "timestamp": "2026-08-30T03:30:00-05:00",
       "rule": "temperature spike",
       "severity": "High",
-      "explanation": "Motor temp 95.0\u00b0C exceeds 80\u00b0C threshold"
+      "explanation": "Motor temp 94.0\u00b0C exceeds 80\u00b0C threshold"
     },
     {
       "vehicle_id": "SCT-001",
-      "timestamp": "2026-08-30T03:28:00-05:00",
+      "timestamp": "2026-08-30T03:32:00-05:00",
       "rule": "temperature spike",
       "severity": "High",
-      "explanation": "Motor temp 95.0\u00b0C exceeds 80\u00b0C threshold"
+      "explanation": "Motor temp 93.9\u00b0C exceeds 80\u00b0C threshold"
     },
     {
       "vehicle_id": "SCT-001",
-      "timestamp": "2026-08-30T03:33:00-05:00",
+      "timestamp": "2026-08-30T03:36:00-05:00",
       "rule": "temperature spike",
       "severity": "High",
-      "explanation": "Motor temp 94.9\u00b0C exceeds 80\u00b0C threshold"
+      "explanation": "Motor temp 93.8\u00b0C exceeds 80\u00b0C threshold"
     },
     {
       "vehicle_id": "SCT-001",
-      "timestamp": "2026-08-30T03:38:00-05:00",
+      "timestamp": "2026-08-30T03:39:00-05:00",
       "rule": "temperature spike",
       "severity": "High",
-      "explanation": "Motor temp 94.8\u00b0C exceeds 80\u00b0C threshold"
+      "explanation": "Motor temp 93.7\u00b0C exceeds 80\u00b0C threshold"
     },
     {
       "vehicle_id": "SCT-001",
-      "timestamp": "2026-08-30T03:42:00-05:00",
+      "timestamp": "2026-08-30T03:41:00-05:00",
       "rule": "temperature spike",
       "severity": "High",
-      "explanation": "Motor temp 94.7\u00b0C exceeds 80\u00b0C threshold"
+      "explanation": "Motor temp 93.7\u00b0C exceeds 80\u00b0C threshold"
     },
     {
       "vehicle_id": "SCT-001",
-      "timestamp": "2026-08-30T03:47:00-05:00",
+      "timestamp": "2026-08-30T03:45:00-05:00",
       "rule": "temperature spike",
       "severity": "High",
-      "explanation": "Motor temp 94.7\u00b0C exceeds 80\u00b0C threshold"
+      "explanation": "Motor temp 93.6\u00b0C exceeds 80\u00b0C threshold"
     },
     {
       "vehicle_id": "SCT-001",
-      "timestamp": "2026-08-30T03:52:00-05:00",
+      "timestamp": "2026-08-30T03:46:00-05:00",
       "rule": "temperature spike",
       "severity": "High",
-      "explanation": "Motor temp 94.6\u00b0C exceeds 80\u00b0C threshold"
+      "explanation": "Motor temp 93.6\u00b0C exceeds 80\u00b0C threshold"
     },
     {
       "vehicle_id": "SCT-001",
-      "timestamp": "2026-08-30T03:56:00-05:00",
+      "timestamp": "2026-08-30T03:51:00-05:00",
       "rule": "temperature spike",
       "severity": "High",
-      "explanation": "Motor temp 94.6\u00b0C exceeds 80\u00b0C threshold"
+      "explanation": "Motor temp 93.5\u00b0C exceeds 80\u00b0C threshold"
     },
     {
       "vehicle_id": "SCT-001",
-      "timestamp": "2026-08-30T04:00:00-05:00",
+      "timestamp": "2026-08-30T03:53:00-05:00",
       "rule": "temperature spike",
       "severity": "High",
-      "explanation": "Motor temp 95.0\u00b0C exceeds 80\u00b0C threshold"
+      "explanation": "Motor temp 93.4\u00b0C exceeds 80\u00b0C threshold"
     },
     {
       "vehicle_id": "SCT-001",
-      "timestamp": "2026-08-30T04:03:00-05:00",
+      "timestamp": "2026-08-30T03:55:00-05:00",
       "rule": "temperature spike",
       "severity": "High",
-      "explanation": "Motor temp 95.0\u00b0C exceeds 80\u00b0C threshold"
+      "explanation": "Motor temp 93.3\u00b0C exceeds 80\u00b0C threshold"
+    },
+    {
+      "vehicle_id": "SCT-001",
+      "timestamp": "2026-08-30T03:59:00-05:00",
+      "rule": "temperature spike",
+      "severity": "High",
+      "explanation": "Motor temp 93.3\u00b0C exceeds 80\u00b0C threshold"
+    },
+    {
+      "vehicle_id": "SCT-001",
+      "timestamp": "2026-08-30T04:04:00-05:00",
+      "rule": "temperature spike",
+      "severity": "High",
+      "explanation": "Motor temp 93.5\u00b0C exceeds 80\u00b0C threshold"
     },
     {
       "vehicle_id": "SCT-001",
       "timestamp": "2026-08-30T04:08:00-05:00",
       "rule": "temperature spike",
       "severity": "High",
-      "explanation": "Motor temp 95.0\u00b0C exceeds 80\u00b0C threshold"
+      "explanation": "Motor temp 94.2\u00b0C exceeds 80\u00b0C threshold"
     },
     {
       "vehicle_id": "SCT-001",
       "timestamp": "2026-08-30T04:12:00-05:00",
       "rule": "temperature spike",
       "severity": "High",
-      "explanation": "Motor temp 95.0\u00b0C exceeds 80\u00b0C threshold"
+      "explanation": "Motor temp 94.3\u00b0C exceeds 80\u00b0C threshold"
+    },
+    {
+      "vehicle_id": "SCT-001",
+      "timestamp": "2026-08-30T04:13:00-05:00",
+      "rule": "temperature spike",
+      "severity": "High",
+      "explanation": "Motor temp 94.6\u00b0C exceeds 80\u00b0C threshold"
     },
     {
       "vehicle_id": "SCT-001",
       "timestamp": "2026-08-30T04:16:00-05:00",
+      "rule": "temperature spike",
+      "severity": "High",
+      "explanation": "Motor temp 94.8\u00b0C exceeds 80\u00b0C threshold"
+    },
+    {
+      "vehicle_id": "SCT-001",
+      "timestamp": "2026-08-30T04:17:00-05:00",
+      "rule": "temperature spike",
+      "severity": "High",
+      "explanation": "Motor temp 95.0\u00b0C exceeds 80\u00b0C threshold"
+    },
+    {
+      "vehicle_id": "SCT-001",
+      "timestamp": "2026-08-30T04:19:00-05:00",
       "rule": "temperature spike",
       "severity": "High",
       "explanation": "Motor temp 95.0\u00b0C exceeds 80\u00b0C threshold"
@@ -931,7 +1029,7 @@
     },
     {
       "vehicle_id": "SCT-001",
-      "timestamp": "2026-08-30T04:24:00-05:00",
+      "timestamp": "2026-08-30T04:22:00-05:00",
       "rule": "temperature spike",
       "severity": "High",
       "explanation": "Motor temp 95.0\u00b0C exceeds 80\u00b0C threshold"
@@ -952,14 +1050,21 @@
     },
     {
       "vehicle_id": "SCT-001",
-      "timestamp": "2026-08-30T04:34:00-05:00",
+      "timestamp": "2026-08-30T04:31:00-05:00",
       "rule": "temperature spike",
       "severity": "High",
       "explanation": "Motor temp 95.0\u00b0C exceeds 80\u00b0C threshold"
     },
     {
       "vehicle_id": "SCT-001",
-      "timestamp": "2026-08-30T04:37:00-05:00",
+      "timestamp": "2026-08-30T04:36:00-05:00",
+      "rule": "temperature spike",
+      "severity": "High",
+      "explanation": "Motor temp 95.0\u00b0C exceeds 80\u00b0C threshold"
+    },
+    {
+      "vehicle_id": "SCT-001",
+      "timestamp": "2026-08-30T04:40:00-05:00",
       "rule": "temperature spike",
       "severity": "High",
       "explanation": "Motor temp 95.0\u00b0C exceeds 80\u00b0C threshold"
@@ -973,14 +1078,7 @@
     },
     {
       "vehicle_id": "SCT-001",
-      "timestamp": "2026-08-30T04:44:00-05:00",
-      "rule": "temperature spike",
-      "severity": "High",
-      "explanation": "Motor temp 95.0\u00b0C exceeds 80\u00b0C threshold"
-    },
-    {
-      "vehicle_id": "SCT-001",
-      "timestamp": "2026-08-30T04:45:00-05:00",
+      "timestamp": "2026-08-30T04:47:00-05:00",
       "rule": "temperature spike",
       "severity": "High",
       "explanation": "Motor temp 95.0\u00b0C exceeds 80\u00b0C threshold"
@@ -994,14 +1092,7 @@
     },
     {
       "vehicle_id": "SCT-001",
-      "timestamp": "2026-08-30T04:52:00-05:00",
-      "rule": "temperature spike",
-      "severity": "High",
-      "explanation": "Motor temp 95.0\u00b0C exceeds 80\u00b0C threshold"
-    },
-    {
-      "vehicle_id": "SCT-001",
-      "timestamp": "2026-08-30T04:56:00-05:00",
+      "timestamp": "2026-08-30T04:54:00-05:00",
       "rule": "temperature spike",
       "severity": "High",
       "explanation": "Motor temp 95.0\u00b0C exceeds 80\u00b0C threshold"
@@ -1015,7 +1106,7 @@
     },
     {
       "vehicle_id": "SCT-001",
-      "timestamp": "2026-08-30T05:02:00-05:00",
+      "timestamp": "2026-08-30T05:04:00-05:00",
       "rule": "temperature spike",
       "severity": "High",
       "explanation": "Motor temp 95.0\u00b0C exceeds 80\u00b0C threshold"
@@ -1029,7 +1120,7 @@
     },
     {
       "vehicle_id": "SCT-001",
-      "timestamp": "2026-08-30T05:09:00-05:00",
+      "timestamp": "2026-08-30T05:07:00-05:00",
       "rule": "temperature spike",
       "severity": "High",
       "explanation": "Motor temp 95.0\u00b0C exceeds 80\u00b0C threshold"
@@ -1043,14 +1134,35 @@
     },
     {
       "vehicle_id": "SCT-001",
-      "timestamp": "2026-08-30T05:14:00-05:00",
+      "timestamp": "2026-08-30T05:13:00-05:00",
       "rule": "temperature spike",
       "severity": "High",
       "explanation": "Motor temp 95.0\u00b0C exceeds 80\u00b0C threshold"
     },
     {
       "vehicle_id": "SCT-001",
-      "timestamp": "2026-08-30T05:18:00-05:00",
+      "timestamp": "2026-08-30T05:15:00-05:00",
+      "rule": "temperature spike",
+      "severity": "High",
+      "explanation": "Motor temp 95.0\u00b0C exceeds 80\u00b0C threshold"
+    },
+    {
+      "vehicle_id": "SCT-001",
+      "timestamp": "2026-08-30T05:16:00-05:00",
+      "rule": "temperature spike",
+      "severity": "High",
+      "explanation": "Motor temp 95.0\u00b0C exceeds 80\u00b0C threshold"
+    },
+    {
+      "vehicle_id": "SCT-001",
+      "timestamp": "2026-08-30T05:21:00-05:00",
+      "rule": "temperature spike",
+      "severity": "High",
+      "explanation": "Motor temp 95.0\u00b0C exceeds 80\u00b0C threshold"
+    },
+    {
+      "vehicle_id": "SCT-001",
+      "timestamp": "2026-08-30T05:22:00-05:00",
       "rule": "temperature spike",
       "severity": "High",
       "explanation": "Motor temp 95.0\u00b0C exceeds 80\u00b0C threshold"
@@ -1064,42 +1176,21 @@
     },
     {
       "vehicle_id": "SCT-001",
-      "timestamp": "2026-08-30T05:26:00-05:00",
+      "timestamp": "2026-08-30T05:25:00-05:00",
       "rule": "temperature spike",
       "severity": "High",
       "explanation": "Motor temp 95.0\u00b0C exceeds 80\u00b0C threshold"
     },
     {
       "vehicle_id": "SCT-001",
-      "timestamp": "2026-08-30T05:28:00-05:00",
+      "timestamp": "2026-08-30T05:30:00-05:00",
       "rule": "temperature spike",
       "severity": "High",
       "explanation": "Motor temp 95.0\u00b0C exceeds 80\u00b0C threshold"
     },
     {
       "vehicle_id": "SCT-001",
-      "timestamp": "2026-08-30T05:31:00-05:00",
-      "rule": "temperature spike",
-      "severity": "High",
-      "explanation": "Motor temp 95.0\u00b0C exceeds 80\u00b0C threshold"
-    },
-    {
-      "vehicle_id": "SCT-001",
-      "timestamp": "2026-08-30T05:32:00-05:00",
-      "rule": "temperature spike",
-      "severity": "High",
-      "explanation": "Motor temp 95.0\u00b0C exceeds 80\u00b0C threshold"
-    },
-    {
-      "vehicle_id": "SCT-001",
-      "timestamp": "2026-08-30T05:35:00-05:00",
-      "rule": "temperature spike",
-      "severity": "High",
-      "explanation": "Motor temp 95.0\u00b0C exceeds 80\u00b0C threshold"
-    },
-    {
-      "vehicle_id": "SCT-001",
-      "timestamp": "2026-08-30T05:36:00-05:00",
+      "timestamp": "2026-08-30T05:33:00-05:00",
       "rule": "temperature spike",
       "severity": "High",
       "explanation": "Motor temp 95.0\u00b0C exceeds 80\u00b0C threshold"
@@ -1113,14 +1204,28 @@
     },
     {
       "vehicle_id": "SCT-001",
-      "timestamp": "2026-08-30T05:40:00-05:00",
+      "timestamp": "2026-08-30T05:41:00-05:00",
       "rule": "temperature spike",
       "severity": "High",
       "explanation": "Motor temp 95.0\u00b0C exceeds 80\u00b0C threshold"
     },
     {
       "vehicle_id": "SCT-001",
-      "timestamp": "2026-08-30T05:44:00-05:00",
+      "timestamp": "2026-08-30T05:42:00-05:00",
+      "rule": "temperature spike",
+      "severity": "High",
+      "explanation": "Motor temp 95.0\u00b0C exceeds 80\u00b0C threshold"
+    },
+    {
+      "vehicle_id": "SCT-001",
+      "timestamp": "2026-08-30T05:47:00-05:00",
+      "rule": "temperature spike",
+      "severity": "High",
+      "explanation": "Motor temp 95.0\u00b0C exceeds 80\u00b0C threshold"
+    },
+    {
+      "vehicle_id": "SCT-001",
+      "timestamp": "2026-08-30T05:48:00-05:00",
       "rule": "temperature spike",
       "severity": "High",
       "explanation": "Motor temp 95.0\u00b0C exceeds 80\u00b0C threshold"
@@ -1134,35 +1239,49 @@
     },
     {
       "vehicle_id": "SCT-001",
-      "timestamp": "2026-08-30T05:53:00-05:00",
+      "timestamp": "2026-08-30T05:51:00-05:00",
       "rule": "temperature spike",
       "severity": "High",
       "explanation": "Motor temp 95.0\u00b0C exceeds 80\u00b0C threshold"
     },
     {
       "vehicle_id": "SCT-001",
-      "timestamp": "2026-08-30T05:57:00-05:00",
+      "timestamp": "2026-08-30T05:55:00-05:00",
       "rule": "temperature spike",
       "severity": "High",
       "explanation": "Motor temp 95.0\u00b0C exceeds 80\u00b0C threshold"
     },
     {
       "vehicle_id": "SCT-001",
-      "timestamp": "2026-08-30T05:59:00-05:00",
+      "timestamp": "2026-08-30T05:55:00-05:00",
+      "rule": "gps_jump",
+      "severity": "Medium",
+      "explanation": "Sudden GPS jump detected between 2026-08-30T05:51:00-05:00 and 2026-08-30T05:55:00-05:00"
+    },
+    {
+      "vehicle_id": "SCT-001",
+      "timestamp": "2026-08-30T05:58:00-05:00",
       "rule": "temperature spike",
       "severity": "High",
       "explanation": "Motor temp 95.0\u00b0C exceeds 80\u00b0C threshold"
     },
     {
       "vehicle_id": "SCT-001",
-      "timestamp": "2026-08-30T06:01:00-05:00",
+      "timestamp": "2026-08-30T05:58:00-05:00",
+      "rule": "gps_jump",
+      "severity": "Medium",
+      "explanation": "Sudden GPS jump detected between 2026-08-30T05:55:00-05:00 and 2026-08-30T05:58:00-05:00"
+    },
+    {
+      "vehicle_id": "SCT-001",
+      "timestamp": "2026-08-30T06:00:00-05:00",
       "rule": "temperature spike",
       "severity": "High",
       "explanation": "Motor temp 95.0\u00b0C exceeds 80\u00b0C threshold"
     },
     {
       "vehicle_id": "SCT-001",
-      "timestamp": "2026-08-30T06:07:00-05:00",
+      "timestamp": "2026-08-30T06:05:00-05:00",
       "rule": "temperature spike",
       "severity": "High",
       "explanation": "Motor temp 95.0\u00b0C exceeds 80\u00b0C threshold"
@@ -1176,56 +1295,49 @@
     },
     {
       "vehicle_id": "SCT-001",
-      "timestamp": "2026-08-30T06:13:00-05:00",
+      "timestamp": "2026-08-30T06:12:00-05:00",
       "rule": "temperature spike",
       "severity": "High",
       "explanation": "Motor temp 95.0\u00b0C exceeds 80\u00b0C threshold"
     },
     {
       "vehicle_id": "SCT-001",
-      "timestamp": "2026-08-30T06:15:00-05:00",
+      "timestamp": "2026-08-30T06:16:00-05:00",
       "rule": "temperature spike",
       "severity": "High",
       "explanation": "Motor temp 95.0\u00b0C exceeds 80\u00b0C threshold"
     },
     {
       "vehicle_id": "SCT-001",
-      "timestamp": "2026-08-30T06:20:00-05:00",
+      "timestamp": "2026-08-30T06:19:00-05:00",
       "rule": "temperature spike",
       "severity": "High",
       "explanation": "Motor temp 95.0\u00b0C exceeds 80\u00b0C threshold"
     },
     {
       "vehicle_id": "SCT-001",
-      "timestamp": "2026-08-30T06:22:00-05:00",
+      "timestamp": "2026-08-30T06:24:00-05:00",
       "rule": "temperature spike",
       "severity": "High",
       "explanation": "Motor temp 95.0\u00b0C exceeds 80\u00b0C threshold"
     },
     {
       "vehicle_id": "SCT-001",
-      "timestamp": "2026-08-30T06:23:00-05:00",
+      "timestamp": "2026-08-30T06:28:00-05:00",
       "rule": "temperature spike",
       "severity": "High",
       "explanation": "Motor temp 95.0\u00b0C exceeds 80\u00b0C threshold"
     },
     {
       "vehicle_id": "SCT-001",
-      "timestamp": "2026-08-30T06:27:00-05:00",
+      "timestamp": "2026-08-30T06:29:00-05:00",
       "rule": "temperature spike",
       "severity": "High",
       "explanation": "Motor temp 95.0\u00b0C exceeds 80\u00b0C threshold"
     },
     {
       "vehicle_id": "SCT-001",
-      "timestamp": "2026-08-30T06:31:00-05:00",
-      "rule": "temperature spike",
-      "severity": "High",
-      "explanation": "Motor temp 95.0\u00b0C exceeds 80\u00b0C threshold"
-    },
-    {
-      "vehicle_id": "SCT-001",
-      "timestamp": "2026-08-30T06:32:00-05:00",
+      "timestamp": "2026-08-30T06:30:00-05:00",
       "rule": "temperature spike",
       "severity": "High",
       "explanation": "Motor temp 95.0\u00b0C exceeds 80\u00b0C threshold"
@@ -1235,91 +1347,126 @@
       "timestamp": "2026-08-30T06:34:00-05:00",
       "rule": "temperature spike",
       "severity": "High",
-      "explanation": "Motor temp 94.9\u00b0C exceeds 80\u00b0C threshold"
+      "explanation": "Motor temp 95.0\u00b0C exceeds 80\u00b0C threshold"
     },
     {
       "vehicle_id": "SCT-001",
-      "timestamp": "2026-08-30T06:37:00-05:00",
+      "timestamp": "2026-08-30T06:36:00-05:00",
       "rule": "temperature spike",
       "severity": "High",
-      "explanation": "Motor temp 94.8\u00b0C exceeds 80\u00b0C threshold"
-    },
-    {
-      "vehicle_id": "SCT-001",
-      "timestamp": "2026-08-30T06:38:00-05:00",
-      "rule": "temperature spike",
-      "severity": "High",
-      "explanation": "Motor temp 94.8\u00b0C exceeds 80\u00b0C threshold"
+      "explanation": "Motor temp 95.0\u00b0C exceeds 80\u00b0C threshold"
     },
     {
       "vehicle_id": "SCT-001",
       "timestamp": "2026-08-30T06:40:00-05:00",
       "rule": "temperature spike",
       "severity": "High",
-      "explanation": "Motor temp 94.8\u00b0C exceeds 80\u00b0C threshold"
+      "explanation": "Motor temp 95.0\u00b0C exceeds 80\u00b0C threshold"
+    },
+    {
+      "vehicle_id": "SCT-001",
+      "timestamp": "2026-08-30T06:41:00-05:00",
+      "rule": "temperature spike",
+      "severity": "High",
+      "explanation": "Motor temp 95.0\u00b0C exceeds 80\u00b0C threshold"
     },
     {
       "vehicle_id": "SCT-001",
       "timestamp": "2026-08-30T06:44:00-05:00",
       "rule": "temperature spike",
       "severity": "High",
-      "explanation": "Motor temp 94.6\u00b0C exceeds 80\u00b0C threshold"
+      "explanation": "Motor temp 95.0\u00b0C exceeds 80\u00b0C threshold"
     },
     {
       "vehicle_id": "SCT-001",
       "timestamp": "2026-08-30T06:48:00-05:00",
       "rule": "temperature spike",
       "severity": "High",
-      "explanation": "Motor temp 94.5\u00b0C exceeds 80\u00b0C threshold"
+      "explanation": "Motor temp 95.0\u00b0C exceeds 80\u00b0C threshold"
     },
     {
       "vehicle_id": "SCT-001",
       "timestamp": "2026-08-30T06:51:00-05:00",
       "rule": "temperature spike",
       "severity": "High",
-      "explanation": "Motor temp 94.4\u00b0C exceeds 80\u00b0C threshold"
+      "explanation": "Motor temp 95.0\u00b0C exceeds 80\u00b0C threshold"
     },
     {
       "vehicle_id": "SCT-001",
       "timestamp": "2026-08-30T06:56:00-05:00",
       "rule": "temperature spike",
       "severity": "High",
-      "explanation": "Motor temp 94.4\u00b0C exceeds 80\u00b0C threshold"
+      "explanation": "Motor temp 95.0\u00b0C exceeds 80\u00b0C threshold"
     },
     {
       "vehicle_id": "SCT-001",
-      "timestamp": "2026-08-30T06:57:00-05:00",
+      "timestamp": "2026-08-30T07:00:00-05:00",
       "rule": "temperature spike",
       "severity": "High",
-      "explanation": "Motor temp 94.3\u00b0C exceeds 80\u00b0C threshold"
-    },
-    {
-      "vehicle_id": "SCT-001",
-      "timestamp": "2026-08-30T07:02:00-05:00",
-      "rule": "temperature spike",
-      "severity": "High",
-      "explanation": "Motor temp 94.3\u00b0C exceeds 80\u00b0C threshold"
+      "explanation": "Motor temp 95.0\u00b0C exceeds 80\u00b0C threshold"
     },
     {
       "vehicle_id": "SCT-001",
       "timestamp": "2026-08-30T07:03:00-05:00",
       "rule": "temperature spike",
       "severity": "High",
-      "explanation": "Motor temp 94.2\u00b0C exceeds 80\u00b0C threshold"
-    },
-    {
-      "vehicle_id": "SCT-001",
-      "timestamp": "2026-08-30T07:06:00-05:00",
-      "rule": "temperature spike",
-      "severity": "High",
-      "explanation": "Motor temp 94.2\u00b0C exceeds 80\u00b0C threshold"
+      "explanation": "Motor temp 95.0\u00b0C exceeds 80\u00b0C threshold"
     },
     {
       "vehicle_id": "SCT-001",
       "timestamp": "2026-08-30T07:08:00-05:00",
       "rule": "temperature spike",
       "severity": "High",
-      "explanation": "Motor temp 94.7\u00b0C exceeds 80\u00b0C threshold"
+      "explanation": "Motor temp 95.0\u00b0C exceeds 80\u00b0C threshold"
+    },
+    {
+      "vehicle_id": "SCT-001",
+      "timestamp": "2026-08-30T07:09:00-05:00",
+      "rule": "temperature spike",
+      "severity": "High",
+      "explanation": "Motor temp 95.0\u00b0C exceeds 80\u00b0C threshold"
+    },
+    {
+      "vehicle_id": "SCT-001",
+      "timestamp": "2026-08-30T07:12:00-05:00",
+      "rule": "temperature spike",
+      "severity": "High",
+      "explanation": "Motor temp 95.0\u00b0C exceeds 80\u00b0C threshold"
+    },
+    {
+      "vehicle_id": "SCT-001",
+      "timestamp": "2026-08-30T07:16:00-05:00",
+      "rule": "temperature spike",
+      "severity": "High",
+      "explanation": "Motor temp 95.0\u00b0C exceeds 80\u00b0C threshold"
+    },
+    {
+      "vehicle_id": "SCT-001",
+      "timestamp": "2026-08-30T07:17:00-05:00",
+      "rule": "temperature spike",
+      "severity": "High",
+      "explanation": "Motor temp 95.0\u00b0C exceeds 80\u00b0C threshold"
+    },
+    {
+      "vehicle_id": "SCT-001",
+      "timestamp": "2026-08-30T07:21:00-05:00",
+      "rule": "temperature spike",
+      "severity": "High",
+      "explanation": "Motor temp 95.0\u00b0C exceeds 80\u00b0C threshold"
+    },
+    {
+      "vehicle_id": "SCT-001",
+      "timestamp": "2026-08-30T07:24:00-05:00",
+      "rule": "temperature spike",
+      "severity": "High",
+      "explanation": "Motor temp 95.0\u00b0C exceeds 80\u00b0C threshold"
+    },
+    {
+      "vehicle_id": "SCT-001",
+      "timestamp": "2026-08-30T07:28:00-05:00",
+      "rule": "temperature spike",
+      "severity": "High",
+      "explanation": "Motor temp 95.0\u00b0C exceeds 80\u00b0C threshold"
     }
   ]
 }
