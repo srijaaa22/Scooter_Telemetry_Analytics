@@ -3,7 +3,7 @@ import json
 import matplotlib.pyplot as plt
 from typing import List
 from dataclasses import asdict
-from models import TelemetrySample, DailyMetrics, Anomaly
+from .models import TelemetrySample, DailyMetrics, Anomaly
 
 def generate_report(vehicle_id: str, date_str: str, samples: List[TelemetrySample], metrics: DailyMetrics, anomalies: List[Anomaly], out_dir: str) -> None:
     """Generates a JSON summary and a 3-panel PNG chart for a single vehicle."""

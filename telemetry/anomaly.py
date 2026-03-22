@@ -1,5 +1,5 @@
 import math
-from models import TelemetrySample, Anomaly
+from .models import TelemetrySample, Anomaly
 
 def detect_anomalies(samples: list[TelemetrySample]) -> list[Anomaly]:
     anomalies = []

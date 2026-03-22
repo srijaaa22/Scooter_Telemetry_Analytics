@@ -1,5 +1,5 @@
 import csv
-from models import TelemetrySample
+from .models import TelemetrySample
 from datetime import datetime
 
 def load_csv(filepath):

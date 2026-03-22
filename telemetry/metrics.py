@@ -1,7 +1,7 @@
 import numpy as np
 from datetime import datetime
 from typing import List
-from models import TelemetrySample, Session, DailyMetrics
+from .models import TelemetrySample, Session, DailyMetrics
 
 def compute_daily_metrics(vehicle_id: str, date_str: str, samples: List[TelemetrySample], sessions: List[Session]) -> DailyMetrics:
     if not samples:

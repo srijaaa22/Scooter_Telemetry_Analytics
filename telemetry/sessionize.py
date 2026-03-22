@@ -1,5 +1,4 @@
-from models import TelemetrySample, Session
-
+from .models import TelemetrySample, Session
 
 def _build_session(session_samples, state):
     return Session(
